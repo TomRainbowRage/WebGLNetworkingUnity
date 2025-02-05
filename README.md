@@ -16,11 +16,13 @@ If you want to you can copy the server code Script and add Fleck to your unity p
 
 ## Unity Project Setup and Import
 
+**Dependencies**
+Enter these git links to install the dependencies of this package.
+- `https://github.com/endel/NativeWebSocket.git#upm`
+- `https://github.com/MessagePack-CSharp/MessagePack-CSharp.git?path=src/MessagePack.UnityClient/Assets/Scripts/MessagePack`
+
 Enter this git link into the package manager to import the package with its dependencies.
 `https://github.com/TomRainbowRage/WebGLNetworkingUnity.git#v1.0.0`
-
-I cant figure out how to make unity git dependencies work so you have to scope the openupm for your project before importing
-https://openupm.com/docs/getting-started.html#setup-the-scoped-registry
 
 Once imported attach the NetworkManagerPackets monobehaviour to a gameobject in the scene.
 Make a normal MonoBehaviour script and now you can impliment some logic.
