@@ -1,0 +1,15 @@
+{
+  "name": "com.tomra.webglnetworking",
+  "version": "1.0.0",
+  "displayName": "Web GL Packet Networking",
+  "description": "Packet Networking in Unity that supports WebGL",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.endel.nativewebsocket": "https://github.com/endel/NativeWebSocket.git#upm",
+    "com.github.messagepack-csharp": "https://github.com/MessagePack-CSharp/MessagePack-CSharp.git?path=src/MessagePack.UnityClient/Assets/Scripts/MessagePack",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomRainbowRage/WebGLNetworkingUnity.git"
+  }
+}
