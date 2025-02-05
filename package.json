@@ -5,8 +5,8 @@
   "description": "Packet Networking in Unity that supports WebGL",
   "unity": "2021.3",
   "dependencies": {
-    "com.endel.nativewebsocket": "https://github.com/endel/NativeWebSocket.git#upm",
-    "com.github.messagepack-csharp": "https://github.com/MessagePack-CSharp/MessagePack-CSharp.git?path=src/MessagePack.UnityClient/Assets/Scripts/MessagePack"
+    "com.cysharp.nativewebsocket": "1.1.2",
+    "com.neuecc.messagepack": "2.6.0"
   },
   "repository": {
     "type": "git",
