@@ -18,11 +18,11 @@ If you want to you can copy the server code Script and add Fleck to your unity p
 This package has got repackaged packages in it i have not modifed any of the code or files however just be aware there in here.
 Ill list them here for credit
 
-[Native WebSockets](https://github.com/endel/NativeWebSocket) - Used as the backbone of this package, it allows sending and reciving data with websockets.
-[UniTask](https://github.com/Cysharp/UniTask) - Used so that WebGL can run async methods in this package.
-[Message Pack](github.com/MessagePack-CSharp/MessagePack-CSharp) - Used for serialization and deserialization of data byte[] in this package.
-[Lz4Net](https://github.com/MiloszKrajewski/lz4net) - Used as a dependency of Message Pack so i had to include it
-[Fleck](https://github.com/statianzo/Fleck) - Used for the c# websocket server in this package.
+- [Native WebSockets](https://github.com/endel/NativeWebSocket) - Used as the backbone of this package, it allows sending and reciving data with websockets.
+- [UniTask](https://github.com/Cysharp/UniTask) - Used so that WebGL can run async methods in this package.
+- [Message Pack](github.com/MessagePack-CSharp/MessagePack-CSharp) - Used for serialization and deserialization of data byte[] in this package.
+- [Lz4Net](https://github.com/MiloszKrajewski/lz4net) - Used as a dependency of Message Pack so i had to include it
+- [Fleck](https://github.com/statianzo/Fleck) - Used for the c# websocket server in this package.
 
 ## Licenses
 
