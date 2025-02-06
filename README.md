@@ -20,7 +20,7 @@ Ill list them here for credit
 
 - [Native WebSockets](https://github.com/endel/NativeWebSocket) - Used as the backbone of this package, it allows sending and reciving data with websockets.
 - [UniTask](https://github.com/Cysharp/UniTask) - Used so that WebGL can run async methods in this package.
-- [Message Pack](github.com/MessagePack-CSharp/MessagePack-CSharp) - Used for serialization and deserialization of data byte[] in this package.
+- [Message Pack](https://github.com/MessagePack-CSharp/MessagePack-CSharp) - Used for serialization and deserialization of data byte[] in this package.
 - [Lz4Net](https://github.com/MiloszKrajewski/lz4net) - Used as a dependency of Message Pack so i had to include it
 - [Fleck](https://github.com/statianzo/Fleck) - Used for the c# websocket server in this package.
 
