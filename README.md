@@ -14,7 +14,37 @@ This package uses a .net8 console app as the server, this server is fixed and mo
 
 If you want to you can copy the server code Script and add Fleck to your unity project to allow clients to host themselves if there are no servers to host on.
 
+## Dependencies
+This package has got repackaged packages in it i have not modifed any of the code or files however just be aware there in here.
+Ill list them here for credit
+
+[Native WebSockets](https://github.com/endel/NativeWebSocket) - Used as the backbone of this package, it allows sending and reciving data with websockets.
+[UniTask](https://github.com/Cysharp/UniTask) - Used so that WebGL can run async methods in this package.
+[Message Pack](github.com/MessagePack-CSharp/MessagePack-CSharp) - Used for serialization and deserialization of data byte[] in this package.
+[Lz4Net](https://github.com/MiloszKrajewski/lz4net) - Used as a dependency of Message Pack so i had to include it
+[Fleck](https://github.com/statianzo/Fleck) - Used for the c# websocket server in this package.
+
+## Licenses
+
+This project includes third-party libraries:
+
+- **Native WebSockets** - Licensed under **Apache 2.0** ([View License](./LICENSE_Apache-2.0.txt))
+- **UniTask** - Licensed under **MIT** ([View License](./LICENSE_MIT_1.txt))
+- **Message Pack** - Licensed under **MIT** ([View License](./LICENSE_MIT_2.txt))
+- **lz4net** - Licensed under **BSD 2-Clause** ([View License](./LICENSE_BSD.txt))
+- **Fleck** - Licensed under **MIT** ([View License](./LICENSE_MIT_3.txt))
+
+These packages are redistributed in compliance with their original licenses.
+
+
+## (If ive done any legal stuff wrong please reach out, this is my first time doing something like this!)
+
 ## Unity Project Setup and Import
+
+**Dependencies**
+Enter these git links to install the dependencies of this package.
+- `https://github.com/endel/NativeWebSocket.git#upm`
+- `https://github.com/MessagePack-CSharp/MessagePack-CSharp.git?path=src/MessagePack.UnityClient/Assets/Scripts/MessagePack`
 
 Enter this git link into the package manager to import the package with its dependencies.
 `https://github.com/TomRainbowRage/WebGLNetworkingUnity.git#v1.0.0`
@@ -273,7 +303,3 @@ public class GameController : MonoBehaviour
     }
 }
 ```
-
-
-
-
