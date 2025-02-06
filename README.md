@@ -23,6 +23,7 @@ Ill list them here for credit
 - [Message Pack](https://github.com/MessagePack-CSharp/MessagePack-CSharp) - Used for serialization and deserialization of data byte[] in this package.
 - [Lz4Net](https://github.com/MiloszKrajewski/lz4net) - Used as a dependency of Message Pack so i had to include it
 - [Fleck](https://github.com/statianzo/Fleck) - Used for the c# websocket server in this package.
+- [Ini Parser](https://github.com/rickyah/ini-parser) - Used in the c# websocket server for configuration purposes. 
 
 ## Licenses
 
@@ -33,6 +34,7 @@ This project includes third-party libraries:
 - **Message Pack** - Licensed under **MIT** ([View License](./LICENSE_MIT_2.txt))
 - **lz4net** - Licensed under **BSD 2-Clause** ([View License](./LICENSE_BSD.txt))
 - **Fleck** - Licensed under **MIT** ([View License](./LICENSE_MIT_3.txt))
+- **Ini Parser** - Licensed under **MIT** ([View License](./LICENSE_MIT_4.txt))
 
 These packages are redistributed in compliance with their original licenses.
 
@@ -41,13 +43,8 @@ These packages are redistributed in compliance with their original licenses.
 
 ## Unity Project Setup and Import
 
-**Dependencies**
-Enter these git links to install the dependencies of this package.
-- `https://github.com/endel/NativeWebSocket.git#upm`
-- `https://github.com/MessagePack-CSharp/MessagePack-CSharp.git?path=src/MessagePack.UnityClient/Assets/Scripts/MessagePack`
-
 Enter this git link into the package manager to import the package with its dependencies.
-`https://github.com/TomRainbowRage/WebGLNetworkingUnity.git#v1.0.0`
+`https://github.com/TomRainbowRage/WebGLNetworkingUnity.git#v1.0.4/UnityPackage`
 
 Once imported attach the NetworkManagerPackets monobehaviour to a gameobject in the scene.
 Make a normal MonoBehaviour script and now you can impliment some logic.
