@@ -44,7 +44,7 @@ These packages are redistributed in compliance with their original licenses.
 ## Unity Project Setup and Import
 
 Enter this git link into the package manager to import the package with its dependencies.
-`https://github.com/TomRainbowRage/WebGLNetworkingUnity.git#v1.0.5`
+`https://github.com/TomRainbowRage/WebGLNetworkingUnity.git#v1.0.6`
 
 Once imported attach the NetworkManagerPackets monobehaviour to a gameobject in the scene.
 Make a normal MonoBehaviour script and now you can impliment some logic.
